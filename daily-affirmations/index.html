@@ -3,37 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Daily Affirmations by Mind Fortify is a calm wellbeing app for supportive affirmation practice and reflection.">
+  <meta name="description" content="Daily Affirmations by Mind Fortify is a simple Android app for supportive affirmation practice and mental resilience.">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="/daily-affirmations/styles.css">
   <title>Daily Affirmations - Mind Fortify</title>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <nav aria-label="Main navigation">
-      <a href="/">Mind Fortify</a>
+      <a class="wordmark" href="/">
+        <img src="/celticmind_cropped.png" alt="" aria-hidden="true">
+        <span>Mind Fortify</span>
+      </a>
       <div class="nav-links">
-        <a href="/daily-affirmations/privacy/">Privacy</a>
-        <a href="/daily-affirmations/terms-and-safety/">Terms and Safety</a>
-        <a href="/daily-affirmations/support/">Support</a>
+        <a href="/">Home</a>
+        <a href="#about">About the app</a>
       </div>
     </nav>
-    <section class="hero">
+    <section class="hero app-hero">
       <div>
+        <p class="eyebrow">Android app</p>
         <h1>Daily Affirmations</h1>
-        <p class="intro">Daily Affirmations helps you slow down and practice supportive affirmations in a calm, focused session.</p>
+        <p class="intro">A simple daily habit app for supportive affirmations, quiet reflection, and mental resilience.</p>
         <div class="actions">
-          <a class="button" href="/daily-affirmations/privacy/">Privacy Policy</a>
-          <a class="button secondary" href="/daily-affirmations/support/">Support</a>
+          <a class="button" href="#about">Learn about the app</a>
         </div>
       </div>
-      <img src="/celticmind_cropped.png" alt="Mind Fortify logo">
+      <div class="app-preview" aria-label="Daily Affirmations app preview">
+        <div class="phone-frame">
+          <div class="phone-speaker"></div>
+          <p>Today I can return to steadiness, one breath at a time.</p>
+          <span>Daily Affirmations</span>
+        </div>
+      </div>
     </section>
   </header>
   <main>
     <section aria-labelledby="about">
       <h2 id="about">A Quiet Affirmation Practice</h2>
-      <p>Choose from built-in and public affirmation sets, create local sets on your device, or sign in with a verified email address to back up private sets. Sessions are quiet, gesture-driven, and designed for reflection rather than gamification.</p>
+      <p>Choose from built-in and public affirmation sets, create local sets on your Android device, or sign in with a verified email address to back up private sets. Sessions are quiet, gesture-driven, and designed for reflection rather than gamification.</p>
     </section>
 
     <section aria-labelledby="features">
@@ -53,26 +61,14 @@
       <p><strong>Wellbeing disclaimer:</strong> Daily Affirmations is a wellbeing and reflection tool. It is not medical advice, therapy, diagnosis, treatment, crisis support, or a substitute for a qualified professional.</p>
     </aside>
 
-    <section aria-labelledby="links">
-      <h2 id="links">Helpful Links</h2>
-      <div class="link-grid">
-        <a class="link-card" href="/daily-affirmations/privacy/">
-          <strong>Privacy Policy</strong>
-          How Daily Affirmations handles account, affirmation, local app, report, diagnostic, and performance data.
-        </a>
-        <a class="link-card" href="/daily-affirmations/terms-and-safety/">
-          <strong>Terms and Safety</strong>
-          Acceptable use, public content, moderation, and wellbeing safety guidance.
-        </a>
-        <a class="link-card" href="/daily-affirmations/support/">
-          <strong>Support</strong>
-          Help with privacy questions, account deletion requests, and public-set reports.
-        </a>
-      </div>
-    </section>
   </main>
   <footer>
-    <p>Daily Affirmations is provided by Mind Fortify.</p>
+    <p>Daily Affirmations is an Android app provided by Mind Fortify.</p>
+    <div class="footer-links">
+      <a href="/daily-affirmations/privacy/">Privacy Policy</a>
+      <a href="/daily-affirmations/terms-and-safety/">Terms and Safety</a>
+      <a href="/daily-affirmations/support/">Support</a>
+    </div>
   </footer>
 </body>
 </html>

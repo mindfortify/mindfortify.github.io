@@ -4,104 +4,65 @@
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
+  <meta name="description" content="Mind Fortify creates warm, practical mental wellbeing tools for daily reflection and resilience.">
   <meta property="og:title" content="Mind Fortify">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mindfortify.com">
   <meta property="og:image" content="https://mindfortify.com/celticmind_cropped.png">
-  <meta property="og:description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
+  <meta property="og:description" content="Mind Fortify creates warm, practical mental wellbeing tools for daily reflection and resilience.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@mindfortify">
   <meta name="twitter:title" content="Mind Fortify">
-  <meta name="twitter:description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
+  <meta name="twitter:description" content="Mind Fortify creates warm, practical mental wellbeing tools for daily reflection and resilience.">
   <meta name="twitter:image" content="https://mindfortify.com/celticmind_transparent.png">
-  <title>Mind Fortify - Calm Wellbeing Tools</title>
-  <style>
-    @font-face {
-      font-family: "Lato-Bold";
-      src: url("Lato-Bold.ttf");
-    }
-    body {
-      margin: 0;
-      min-height: 100vh;
-      text-align: center;
-      background: #b7ddde;
-      color: #114366;
-      font-family: Lato-Bold, sans-serif;
-    }
-    header, main, footer {
-      box-sizing: border-box;
-      width: min(980px, 92vw);
-      margin: 0 auto;
-    }
-    header {
-      padding: 42px 0 12px;
-    }
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 6vw, 4.5rem);
-      line-height: 1;
-    }
-    p {
-      font-family: Arial, sans-serif;
-      font-weight: 700;
-      font-size: 1.1rem;
-      line-height: 1.6;
-    }
-    main img {
-      margin: 24px auto 16px;
-      width: 340px;
-      max-width: 100%;
-    }
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 12px;
-      margin: 24px 0 38px;
-    }
-    a {
-      color: #114366;
-    }
-    .button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 44px;
-      padding: 0 18px;
-      border: 2px solid #114366;
-      border-radius: 6px;
-      background: #114366;
-      color: #ffffff;
-      text-decoration: none;
-    }
-    .button.secondary {
-      background: transparent;
-      color: #114366;
-    }
-    footer {
-      padding: 20px 0 36px;
-      font-family: Arial, sans-serif;
-      font-weight: 700;
-    }
-  </style>
+  <link rel="stylesheet" href="/daily-affirmations/styles.css">
+  <title>Mind Fortify - Mental Wellbeing Tools</title>
 </head>
 <body>
-  <header>
-    <h1>Mind Fortify</h1>
-    <p>Calm wellbeing tools for reflection, repetition, and supportive daily practice.</p>
+  <header class="site-header">
+    <nav aria-label="Main navigation">
+      <a class="wordmark" href="/">
+        <img src="/celticmind_cropped.png" alt="" aria-hidden="true">
+        <span>Mind Fortify</span>
+      </a>
+      <div class="nav-links">
+        <a href="/daily-affirmations/">Daily Affirmations</a>
+      </div>
+    </nav>
+
+    <section class="hero home-hero">
+      <div>
+        <p class="eyebrow">Mental wellbeing tools</p>
+        <h1>Small daily practices for a steadier mind.</h1>
+        <p class="intro">Mind Fortify is a home for warm, practical wellbeing projects. The first is Daily Affirmations, a simple Android app for building a reflective habit around mental resilience.</p>
+        <div class="actions">
+          <a class="button" href="/daily-affirmations/">Learn about Daily Affirmations</a>
+        </div>
+      </div>
+      <div class="brand-panel" aria-label="Mind Fortify brand mark">
+        <img src="/celticmind_cropped.png" alt="Mind Fortify logo">
+      </div>
+    </section>
   </header>
+
   <main>
-    <img src="celticmind_cropped.png" alt="mind fortify logo" />
-    <p>Daily Affirmations helps you slow down and practice supportive affirmations in a calm, focused session.</p>
-    <div class="actions">
-      <a class="button" href="/daily-affirmations/">Daily Affirmations</a>
-      <a class="button secondary" href="/daily-affirmations/privacy/">Privacy Policy</a>
-      <a class="button secondary" href="/daily-affirmations/support/">Support</a>
-    </div>
+    <section class="feature-band" aria-labelledby="current-project">
+      <div>
+        <p class="eyebrow">Current project</p>
+        <h2 id="current-project">Daily Affirmations</h2>
+        <p>A calm Android app for repeating supportive affirmations, creating custom sets, and returning to a simple daily mental resilience practice.</p>
+      </div>
+      <a class="text-link" href="/daily-affirmations/">Explore the app</a>
+    </section>
   </main>
+
   <footer>
-    <a href="/daily-affirmations/terms-and-safety/">Terms and Safety</a>
+    <p>Mind Fortify creates mental wellbeing apps and resources.</p>
+    <div class="footer-links">
+      <a href="/daily-affirmations/privacy/">Privacy Policy</a>
+      <a href="/daily-affirmations/terms-and-safety/">Terms and Safety</a>
+      <a href="/daily-affirmations/support/">Support</a>
+    </div>
   </footer>
 </body>
 </html>
