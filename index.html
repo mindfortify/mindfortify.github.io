@@ -4,47 +4,104 @@
   <meta charset="UTF-8">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mind Fortify is an app to empower your mind and build resilience by providing affirmation practice and more. Download Mind Fortify soon on Android and iOS.">
+  <meta name="description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
   <meta property="og:title" content="Mind Fortify">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mindfortify.com">
   <meta property="og:image" content="https://mindfortify.com/celticmind_cropped.png">
-  <meta property="og:description" content="Mind Fortify is an app to empower your mind and build resilience by providing affirmation practice and more. Download Mind Fortify soon on Android and iOS.">
+  <meta property="og:description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@mindfortify">
   <meta name="twitter:title" content="Mind Fortify">
-  <meta name="twitter:description" content="Mind Fortify is an app to empower your mind and build resilience by providing affirmation practice and more. Download Mind Fortify soon on Android and iOS.">
+  <meta name="twitter:description" content="Mind Fortify creates calm wellbeing tools, including Daily Affirmations, a quiet app for supportive affirmation practice and reflection.">
   <meta name="twitter:image" content="https://mindfortify.com/celticmind_transparent.png">
-  <title>Mind Fortify - Empower Your Mind, Transform Your Life - Available soon on Android and iOS</title>
+  <title>Mind Fortify - Calm Wellbeing Tools</title>
   <style>
     @font-face {
       font-family: "Lato-Bold";
       src: url("Lato-Bold.ttf");
     }
     body {
-      display: flex;
-      flex: 1;
-      flex-direction: column;
-      align-content: center;
+      margin: 0;
+      min-height: 100vh;
       text-align: center;
       background: #b7ddde;
       color: #114366;
       font-family: Lato-Bold, sans-serif;
     }
+    header, main, footer {
+      box-sizing: border-box;
+      width: min(980px, 92vw);
+      margin: 0 auto;
+    }
+    header {
+      padding: 42px 0 12px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 6vw, 4.5rem);
+      line-height: 1;
+    }
+    p {
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
     main img {
-      margin-top: 50px;
-      width: 400px;
+      margin: 24px auto 16px;
+      width: 340px;
       max-width: 100%;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin: 24px 0 38px;
+    }
+    a {
+      color: #114366;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 2px solid #114366;
+      border-radius: 6px;
+      background: #114366;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .button.secondary {
+      background: transparent;
+      color: #114366;
+    }
+    footer {
+      padding: 20px 0 36px;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Mind Fortify - Empower Your Mind, Transform Your Life</h1>
-    <p>Website, Android and iOS app coming soon...</p>
+    <h1>Mind Fortify</h1>
+    <p>Calm wellbeing tools for reflection, repetition, and supportive daily practice.</p>
   </header>
   <main>
     <img src="celticmind_cropped.png" alt="mind fortify logo" />
+    <p>Daily Affirmations helps you slow down and practice supportive affirmations in a calm, focused session.</p>
+    <div class="actions">
+      <a class="button" href="/daily-affirmations/">Daily Affirmations</a>
+      <a class="button secondary" href="/daily-affirmations/privacy/">Privacy Policy</a>
+      <a class="button secondary" href="/daily-affirmations/support/">Support</a>
+    </div>
   </main>
+  <footer>
+    <a href="/daily-affirmations/terms-and-safety/">Terms and Safety</a>
+  </footer>
 </body>
 </html>
