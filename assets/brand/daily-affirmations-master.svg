@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096" role="img" aria-labelledby="title desc">
+  <title id="title">Daily Affirmations logo</title>
+  <desc id="desc">An ocean ripple and surf-wave product mark with Daily Affirmations wordmark.</desc>
+  <rect width="4096" height="4096" fill="none"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="2048" cy="1640" r="860" stroke="#c5edf4" stroke-width="96"/>
+    <circle cx="2048" cy="1640" r="600" stroke="#82cfde" stroke-width="92"/>
+    <circle cx="2048" cy="1640" r="330" stroke="#1d8fa7" stroke-width="88"/>
+    <path d="M1260 1715c340 250 642 252 906 4 306-286 596-298 870-40" stroke="#0f657a" stroke-width="150"/>
+    <path d="M1460 1958c258 144 504 128 738-48 232-176 456-188 672-34" stroke="#5ab8ca" stroke-width="96"/>
+    <path d="M1780 1430c138-92 282-92 432 0" stroke="#eefcff" stroke-width="80"/>
+  </g>
+  <text x="2048" y="3020" fill="#103846" font-family="Lato, Arial, sans-serif" font-size="310" font-weight="700" text-anchor="middle" letter-spacing="0">Daily</text>
+  <text x="2048" y="3380" fill="#103846" font-family="Lato, Arial, sans-serif" font-size="310" font-weight="700" text-anchor="middle" letter-spacing="0">Affirmations</text>
+</svg>

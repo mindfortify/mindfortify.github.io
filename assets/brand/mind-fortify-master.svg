@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4096 4096" role="img" aria-labelledby="title desc">
+  <title id="title">Mind Fortify logo</title>
+  <desc id="desc">A minimal Celtic knot fortress mark with Mind Fortify wordmark.</desc>
+  <rect width="4096" height="4096" fill="none"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1460 1760h1176v760H1460z" stroke="#102f37" stroke-width="128"/>
+    <path d="M1608 1760v-316h270v316M1912 1760v-430h272v430M2218 1760v-316h270v316" stroke="#102f37" stroke-width="128"/>
+    <path d="M1648 2100c220-286 580-286 800 0 96 126 96 294 0 420-220 286-580 286-800 0-96-126-96-294 0-420z" stroke="#6fb9c5" stroke-width="92"/>
+    <path d="M2448 2100c-220 286-580 286-800 0-96-126-96-294 0-420 220-286 580-286 800 0 96 126 96 294 0 420z" stroke="#2c6571" stroke-width="92"/>
+    <path d="M1866 2384h364" stroke="#102f37" stroke-width="108"/>
+  </g>
+  <text x="2048" y="3100" fill="#102f37" font-family="Lato, Arial, sans-serif" font-size="360" font-weight="700" text-anchor="middle" letter-spacing="0">Mind Fortify</text>
+</svg>
