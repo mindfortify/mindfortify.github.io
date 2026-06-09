@@ -1,2 +1,2 @@
 # mindfortify.github.io
-Mind Fortify - the website for an android/ios app to support and protect people's mental health
+Mind Fortify - the website for Daily Affirmations & Gratitude and related mental wellbeing tools.
