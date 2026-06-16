@@ -231,8 +231,8 @@ li {
 
 .hero-screenshot {
   width: min(235px, 78%);
-  border: 8px solid #213d3b;
-  border-radius: 28px;
+  border-radius: 30px;
+  background: transparent;
   box-shadow: 0 18px 40px rgba(32, 57, 55, 0.2);
 }
 
@@ -308,9 +308,8 @@ li {
   aspect-ratio: 9 / 19.5;
   object-fit: cover;
   object-position: top;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--surface);
+  border-radius: 30px;
+  background: transparent;
   box-shadow: 0 14px 34px rgba(32, 57, 55, 0.12);
 }
 
